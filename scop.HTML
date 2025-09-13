@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>a function can acsse varibales in side the function</p>
+    <button onclick="myfunction()">click me</button>
+    <h2 id="a"></h2>
+    <h2 id="b"></h2>
+    <script>
+        var x=1
+        function myfunction(){
+            var y=2
+            document.getElementById("a").innerHTML=x
+            document.getElementById("b").innerHTML=y
+                }
+                document.getElementById("a").innerHTML = x
+                    document.getElementById("b").innerHTML = y
+    </script>
+</body>
+</html>
